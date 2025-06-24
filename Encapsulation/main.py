@@ -23,6 +23,6 @@ class BankAccount:
 
 
 user1 = BankAccount()
-user1.balance()
+print(user1.balance)
 user1.deposit(100)
-user1.balance()
+print(user1.balance)

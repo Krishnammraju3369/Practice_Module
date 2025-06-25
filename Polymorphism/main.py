@@ -27,7 +27,7 @@ class Circle(Shape):
         return math.pi * self.radius**2
 
 
-shapes = [Rectangle(width=4, height=5), Circle(radius=3), Rectangle(width=2, height=8)]
+shapes = [Rectangle(width=9, height=10), Circle(radius=4), Rectangle(width=8, height=14)]
 
 
 for shape in shapes:
